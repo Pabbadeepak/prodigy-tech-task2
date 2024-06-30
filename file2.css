@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: green;
+}
+
+#analogClock {
+    margin: 20px;
+    background-color: #f3ecec;
+    border: 2px solid #dc1b10;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#clock, #display {
+    font-size: 2em;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#controls {
+    margin: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: navy;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+#laps li {
+    background-color: rgb(241, 232, 232);
+    border: 2px solid #f7f4f4;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
